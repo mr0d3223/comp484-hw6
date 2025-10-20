@@ -1,26 +1,88 @@
-/* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
-*/
+/* =====================================================
+   Color Palette
+   =====================================================
+   #1E90FF – Primary Blue (Header)
+   #F4F4F9 – Light Gray (Background)
+   #FFD700 – Gold (Accent / Footer)
+   #333333 – Dark Gray (Text)
+===================================================== */
 
-/* Global styles 
+
+/* Global Styles
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    font-family: 'Roboto', sans-serif;  /* Body font from Google Fonts */
+    background-color: #F4F4F9;          /* Light neutral background */
+    color: #333333;                     /* Default text color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif; /* Heading font */
+    color: #333333;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.3em;
+    font-weight: 500;
 }
 
 
-/* Header & Footer 
+/* Header & Footer
 ------------------------------------*/
+header, footer {
+    text-align: center;
+    background-color: #1E90FF;
+    color: white;
+    padding: 30px 20px;
+}
 
+footer {
+    background-color: #FFD700;
+    color: #333333;
+    padding: 20px;
+}
+
+footer a {
+    color: #333333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
 
 
 /* Work Experience
 ------------------------------------*/
-
+.work {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
 
 
 /* Education
 ------------------------------------*/
+.education {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
